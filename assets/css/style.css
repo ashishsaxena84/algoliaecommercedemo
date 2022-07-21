@@ -3113,4 +3113,69 @@ p {
 .block-27 ul li.active a,.block-27 ul li.active span{background:#4ba1fa;color:#fff;border:1px solid transparent}
 .paging-bottom{padding-top:20px;text-align:center;}
 .navbar-area {background-color: #0067f4;}
+.pricing-area .ais-InstantSearch {
+    padding: 0 15px;
+    margin-top: 20px;
+}
+.pricing-area .ais-InstantSearch h1 {
+    font-size: 30px;
+    margin: 0 0 20px;
+}
+.pricing-area .ais-InstantSearch .left-panel h2 {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 15px;
+}
+.pricing-area .ais-InstantSearch .left-panel .ais-RefinementList ul li label span {
+    font-size: 13px;
+}
+.pricing-area .ais-InstantSearch .left-panel .ais-RefinementList ul li label input {
+    top: 2px;
+    position: relative;
+    margin-right: 5px;
+}
+.pricing-area .ais-InstantSearch .left-panel .ais-RefinementList {
+    margin: 0 0 20px;
+}
+.ais-Hits ol li div img {
+    float: none;
+    margin: auto auto 15px;
+    display: block;
+    max-width: 100px;
+    height: 110px;
+    object-fit: contain;
+}
+.ais-Hits ol li div {
+    text-align: center;
+}
+.ais-Hits ol li div.hit-description {
+    font-size: 13px;
+    line-height: 24px;
+    margin: 0 0 10px;
+}
+.ais-Hits ol li div.hit-name {
+    font-size: 15px;
+    font-weight: 500;
+}
+.ais-Hits ol li div.hit-brand, .ais-Hits ol li div.hit-type {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 0 5px;
+}
+.ais-Hits ol li div.hit-price{
+    font-size: 14px;
+    font-weight: 600;
+}
+.ais-SearchBox-form input {
+    background: #ebe9e9;
+    padding: 10px 50px 10px 15px;
+    border-radius: 10px;
+    border: 1px solid #ebe9e9;
+    font-size: 13px;
+    height: 48px;
+}
+.ais-SearchBox-form button.ais-SearchBox-submit {
+    right: 30px;
+    left: inherit;
+}
 /*# sourceMappingURL=style.css.map */

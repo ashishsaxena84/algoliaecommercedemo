@@ -16,6 +16,14 @@ search.addWidgets([
     container: '#brand-list',
     attribute: 'brand',
   }),
+  instantsearch.widgets.refinementList({
+    container: '#categories-list',
+    attribute: 'categories',
+  }),
+  instantsearch.widgets.refinementList({
+    container: '#type-list',
+    attribute: 'type',
+  }),
   instantsearch.widgets.hits({
     container: '#hits',
     templates: {
@@ -27,6 +35,12 @@ search.addWidgets([
           </div>
           <div class="hit-description">
             {{#helpers.highlight}}{ "attribute": "description" }{{/helpers.highlight}}
+          </div>
+          <div class="hit-brand">Brand:-
+            {{#helpers.highlight}}{ "attribute": "brand" }{{/helpers.highlight}}
+          </div>
+          <div class="hit-type">Type:-
+            {{#helpers.highlight}}{ "attribute": "type" }{{/helpers.highlight}}
           </div>
           <div class="hit-price">\${{price}}</div>
         </div>

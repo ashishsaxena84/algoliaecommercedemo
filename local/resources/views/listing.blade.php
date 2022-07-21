@@ -46,9 +46,12 @@
     
         <div class="left-panel">
             <div id="clear-refinements"></div>
-    
+            <h2>Categories</h2>
+            <div id="categories-list"></div>
             <h2>Brands</h2>
             <div id="brand-list"></div>
+            <h2>Types</h2>
+            <div id="type-list"></div>
         </div>
     
         <div class="right-panel">
